@@ -1,0 +1,305 @@
+
+.Main__Home{
+    /* position: relative; */
+    /* height:60rem */
+    position: relative;
+    /* margin-top: 2%; */
+    height: 100vh;
+
+}
+
+.cover_container{
+    max-width: 80%;
+    /* padding-left:23%; */
+    /* padding-top: 2%; */
+    position: relative;
+    margin: auto;
+    height: 100vh;
+}
+
+
+#coverimg{
+    margin-top: 10%;
+    image-rendering: optimizeQuality;
+    max-width:100%;
+    object-fit:contain;
+    vertical-align: middle;
+    
+}
+
+/* faciltity */
+
+
+.Home__facility__main{
+    height: 100%;
+    margin:10px;
+}
+.Home__FacilityContent1{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #f3c7ec;
+    height:500px;
+    padding: 20px;
+
+}
+
+
+.Home__FacilityContent1 .leftItem{
+    position: relative;
+    top: 17%;
+    width:40%;
+    font-size: 1.5rem;
+    font-style: italic;
+    /* height:50%;    */
+    font-weight: 540;
+}
+
+.Home__FacilityContent1 .rightItem{
+    top: 10%;
+    bottom: 2%;
+    padding-bottom:10%;
+    position: relative;
+    width:50%;
+    height:auto;
+    font-size: 1.8rem;
+    font-style: italic;   
+    overflow: hidden;
+    
+}
+
+
+.Home__FacilityContent1 img{
+    position: absolute;
+    padding:10px; 
+    object-fit: contain;
+    max-width: 95%;
+    padding-top: 0.3rem;
+    box-shadow: 10px 10px 20px rgba(3, 3, 3, 0.5);
+}
+
+.Home__FacilityContent2{
+    margin-top: 2%;
+    display: flex;
+    justify-content:space-evenly;
+    /* box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.5); */
+}
+
+
+
+.rightItem2{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    font-size:1.8rem;
+    align-self: center;
+    width: 50%;
+}
+
+
+
+.highlight1{
+    font-size: 2.2rem;
+    font-style:normal;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5); */
+    color: rgb(1, 1, 153);
+    font-weight: 500;
+}
+
+.leftItem__buttons{
+    padding-top: 2rem;
+}
+.leftItem__buttons button,#facilityPage{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 7rem;
+    padding: 15px;
+    /* background:#ebeef1 ; */
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: #0018a0;
+    box-shadow: 2px 2px 10px 2px rgba(10,99,169,0.16);
+   transition: all 0.8s ease-in-out;
+}
+
+.leftItem__buttons button:hover,#facilityPage:hover{
+    background-color: #0018a0;
+    color: white;
+    box-shadow: 10px 10px 10px -1px rgba(63, 130, 182, 0.16);
+    transform: scale(1.2);
+
+}
+.leftItem2{
+    width: 30%;
+    border: 1px solid black;
+    background-color: #fcfaff;
+    border: none;
+    margin-left: 1% ;
+    box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.5);
+    height: 50%;
+    
+}
+.leftItem2 img{
+    padding: 10px;
+    /* width: 700px; */
+    width: 100%;
+    
+
+}
+#linkfacility{
+    font-size: 1.3rem;
+    padding-top: 2%;
+}
+
+
+
+/* testimonies */
+
+.Testimonies{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     overflow: hidden;    
+height: 45rem;
+}
+
+
+
+@media screen and (max-width:1100px){
+    .Home__FacilityContent1 .leftItem{
+        font-size: 1rem;
+        width: 40%;
+    }
+    .Home__FacilityContent1{
+        height: 350px;
+    }
+
+    .Home__FacilityContent1 .rightItem{
+        width: 60%;
+        
+    }
+    .highlight1{
+        font-size: 1.8rem;
+    }
+    .leftItem__buttons button{
+        width:5rem;
+        font-size: 0.6rem;
+    }
+    
+    /* 2nd div */
+    .rightItem2{
+        font-size: 1.2rem;
+    }
+
+    #linkfacility{
+        font-size: 1rem;
+    }
+
+    #facilityPage{
+        width:4.2rem;
+        font-size: 0.5rem;
+    }
+    .leftItem2{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .Home__FacilityContent1 .leftItem{
+        top: -10px;
+        font-size: 1rem;
+        width: 100%;
+        padding: 0 30px;
+    }
+    .Home__FacilityContent1{
+        padding: 0;
+        padding-top: 0.5%;
+        height: 500px;
+        flex-direction: column-reverse;
+    }
+    .Home__FacilityContent1 .rightItem{
+        top: 0;
+        height:60%;
+        width: 95%;
+        left: 4%;
+        bottom: 0;
+        padding: 0;
+    
+    }
+    .highlight1{
+        font-size: 1.8rem;
+    }
+    .leftItem__buttons button{
+        width:5rem;
+        font-size: 0.6rem;
+    }
+
+    #facilityPage{
+        width:4rem;
+        height:1.7rem;
+        font-size: 0.7rem;
+        padding: 0;
+        margin: 0;
+    }
+    #linkfacility{
+        font-size: 0.8rem;
+    }
+    .rightItem2{
+        font-size: 1rem;
+        
+    }
+}
+
+
+
+@media screen and (max-width:550px){
+    .Home__FacilityContent1 .leftItem{
+        top: -10%;
+        font-size: 0.8rem;
+     
+    }
+    .Home__FacilityContent1{
+       height: 450px;
+    }
+    .Home__FacilityContent1 .rightItem{
+     height: 50%;
+    
+    }
+    .highlight1{
+        font-size: 1.5rem;
+    }
+    .leftItem__buttons button{
+        width: 4.4rem;
+        font-size: 0.5rem;
+    }
+
+    #facilityPage{
+     
+    }
+    #linkfacility{
+    }
+    
+    .Home__FacilityContent2{
+        flex-direction: column;
+        padding: 5% 10%;
+    }
+    .leftItem2{
+        width: 90%;
+    }
+    .rightItem2{
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+
+

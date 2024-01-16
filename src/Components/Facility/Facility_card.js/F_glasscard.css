@@ -1,0 +1,18 @@
+.Glass_Container{
+    width: 300px;
+    height: 80px;
+    border: 2px solid black;
+    color: rgb(0, 18, 110);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1em;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.glass{
+    background:linear-gradient(183deg, rgba(243, 243, 243, 0.027),rgba(255, 254, 254, 0.062));
+    backdrop-filter:blur(50px);
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.37);
+}

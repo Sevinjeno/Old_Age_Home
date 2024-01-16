@@ -1,0 +1,49 @@
+.AboutPage{
+    max-width: 100%;
+    font-size: 1.6rem;
+    padding: 2em;
+    background: aliceblue;
+    margin:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#read{
+    background: #09b8ff;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    padding: 0.5em;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+
+#read:hover{
+    transform: scale(1.1);
+}
+.About__first,.About__second{
+    padding: 1em;
+    font-size: 1.4rem;
+}
+.About__second p{
+    padding-top:0.5em;
+}
+
+.left__About{
+    width: 50%;
+}
+
+.right__about{
+    width:90rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.5);
+
+}
+
+.right__about img{
+max-width: 100%;
+    padding:20px;
+    
+}
