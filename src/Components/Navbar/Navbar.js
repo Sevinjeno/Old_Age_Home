@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import * as FaIcons from "react-icons/fa"
 import * as AiIcons from "react-icons/ai"
@@ -18,6 +18,19 @@ const Navbar=()=>{
     const isSmallScreen=useMediaQuery({maxWidth:712}) 
     const showSidebar=()=>setSidebar(!sidebar)
 
+    useEffect(()=>{
+         if(sidebar){
+            debugger
+            document.getElementsByClassName("Home__facility__main")[0].style.zIndex=-1
+         }else{
+            setTimeout(()=>{
+                document.getElementsByClassName("Home__facility__main")[0].style.zIndex=-0
+
+            },1000)
+
+         }
+    },[sidebar])
+
    const NavSidebar=()=>{
     return(
         <IconContext.Provider value={{color:'#fff'}}>
@@ -26,7 +39,7 @@ const Navbar=()=>{
             <FaIcons.FaBars onClick={showSidebar}/>
         </Link>
         <div className='Side_Title'>
-            Pushpa Sadan
+            PushpaSadan
         </div>
         </div>
              <nav className={sidebar?'nav-menu active':'nav-menu'}>

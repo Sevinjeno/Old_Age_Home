@@ -33,11 +33,14 @@
 .Home__facility__main{
     height: 100%;
     margin:10px;
+    z-index: -1;
+    position: relative;
+
 }
 .Home__FacilityContent1{
     display: flex;
     justify-content:space-evenly;
-    background-color: #f3c7ec;
+    background-color: #f0f8ff;
     height:500px;
     padding: 20px;
 
@@ -69,6 +72,7 @@
 
 
 .Home__FacilityContent1 img{
+    image-rendering: pixelated;
     position: absolute;
     padding:10px; 
     object-fit: contain;
@@ -223,9 +227,8 @@ height: 45rem;
     }
     .Home__FacilityContent1 .rightItem{
         top: 0;
-        height:60%;
-        width: 95%;
-        left: 4%;
+        height: 60%;
+        width: 100%;
         bottom: 0;
         padding: 0;
     
@@ -234,8 +237,13 @@ height: 45rem;
         font-size: 1.8rem;
     }
     .leftItem__buttons button{
-        width:5rem;
-        font-size: 0.6rem;
+        width:7rem;
+        font-size: 1rem;
+        padding:1em ;
+        background-color: #0018a0;
+        color: white;
+        box-shadow: 10px 10px 10px -1px rgba(63, 130, 182, 0.16);
+        /* transform: scale(1.2); */
     }
 
     #facilityPage{
@@ -244,15 +252,32 @@ height: 45rem;
         font-size: 0.7rem;
         padding: 0;
         margin: 0;
+        /* font-size: 0.8rem; */
+        background-color: #0018a0;
+        color: white;
+        box-shadow: 10px 10px 10px -1px rgba(63, 130, 182, 0.16);
     }
     #linkfacility{
-        font-size: 0.8rem;
     }
     .rightItem2{
         font-size: 1rem;
         
     }
+
+    .Home__FacilityContent1 img{
+    padding: 1px;
+    object-fit: contain;
+    max-width: 100%;
+    padding-top: 0.3rem;
+    /* box-shadow: 10px 10px 20px rgba(3, 3, 3, 0.5); */
 }
+
+.Home__facility__main {
+    /* height: 100%; */
+    margin: 0;
+}
+    }
+
 
 
 
@@ -266,22 +291,23 @@ height: 45rem;
        height: 450px;
     }
     .Home__FacilityContent1 .rightItem{
-     height: 50%;
+     height: 55%;
     
     }
     .highlight1{
         font-size: 1.5rem;
     }
     .leftItem__buttons button{
-        width: 4.4rem;
-        font-size: 0.5rem;
+        width: 4.7rem;
+        font-size: 0.6rem;
+        padding: 1.5em;
     }
-
+/* 
     #facilityPage{
      
-    }
-    #linkfacility{
-    }
+    } */
+    /* #linkfacility{
+    } */
     
     .Home__FacilityContent2{
         flex-direction: column;

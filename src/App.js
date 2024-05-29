@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import Facility from './Components/Facility/Facility';
 import About from './Components/About/About';
+import ContactUs from './Components/Contact/ContactUs';
 
 
 
@@ -12,7 +13,8 @@ const App =()=>{
          <div className='BodyContainer' >
          <Navbar />
          <Home />
-         {/* <Facility /> */}
+         <Facility />
+         <ContactUs />
          </div>
     )
 }

@@ -47,3 +47,38 @@ max-width: 100%;
     padding:20px;
     
 }
+
+@media screen and (max-width:1100px){
+
+.right__about{
+    width:110rem
+}
+
+.left__about h1{
+    font-size:2rem;
+}
+.About__first,.About__second{
+    font-size: 1.2rem;
+}
+
+
+
+}
+
+@media screen and (max-width:750px){
+
+    .AboutPage{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .left__about{
+        padding-top: 5%;
+        width: 100%;
+    }
+
+    .right__about{
+        width:100%;
+    }
+
+}

@@ -14,7 +14,7 @@
 }
 
 .BodyContainer{
-    width: 100vw; /* 100% of the viewport width */
+    width: 99vw; /* 100% of the viewport width */
     /* height: 100vh; 100% of the viewport height */
 
 }

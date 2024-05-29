@@ -1,0 +1,20 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; /* Full viewport height */
+    text-align: center;
+}
+
+.contact {
+    font-size: 2rem; /* Adjust as needed */
+    margin-bottom: 1rem; /* Space between "Contact Us" and "details" */
+    margin-top: -5%;
+    margin-bottom: 1%;
+}
+
+.details {
+    font-size: 1rem; /* Adjust as needed */
+    /* Add more styles for details as needed */
+}

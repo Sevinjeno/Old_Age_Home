@@ -1,0 +1,42 @@
+.swiper-button-prev{
+    left: 0;
+}
+
+.swiper-button-next{
+  right: 0;
+}
+
+.testmonial__headline{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.testmonial__headline p{
+  position: relative;
+  top: 2px;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width:750px) {
+  .testmonial__headline p{
+    top:20px;
+  }
+  .Testimonies{
+    margin-top: 5%;
+    height: 35rem;
+  }
+  .card{
+    height: 56%;
+  }
+  .swiper{
+    top: -3rem;
+    height:50rem;
+  }
+  .swiper-pagination{
+    top: 42rem;
+  }
+  
+}
