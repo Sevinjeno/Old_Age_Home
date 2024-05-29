@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Facility from './Components/Facility/Facility';
 import About from './Components/About/About';
 import ContactUs from './Components/Contact/ContactUs';
+import { Element } from 'react-scroll';
 
 
 
@@ -13,8 +14,12 @@ const App =()=>{
          <div className='BodyContainer' >
          <Navbar />
          <Home />
+         <Element name="facility">
          <Facility />
+         </Element>
+         <Element name="contact">
          <ContactUs />
+         </Element>
          </div>
     )
 }
