@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 .app__navbar{
-    width: 90%;
+    /* width: 90%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,7 @@
 }
 
 .Side_Title{
-    font-family: 'IBM Plex Mono', monospace;
+    /* font-family: 'IBM Plex Mono', monospace; */
 
 }
 
@@ -100,11 +100,11 @@
 
 
 .Side_Title{
-    text-align: center;
+    /* text-align: center; */
     position: sticky;
-    left: 38%;
+    left: 3%;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     /* font-style: italic; */
 }
 
@@ -178,7 +178,7 @@ span{
 @media screen and (max-width:750px){
     .Side_Title {
         /* left: 21%; */
-        left: 29%;
+        /* left: %; */
     font-size: 1.9rem;
     }
 

@@ -77,7 +77,6 @@ let Box = () => {
     applyCheckIndeterminate: true
   });
   const onCheckChange = event => {
-    debugger
     const settings = {
       singleMode,
       checkChildren,

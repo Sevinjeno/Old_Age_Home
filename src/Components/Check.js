@@ -44,7 +44,6 @@ class Check extends Component {
 
     checkclicked(){
         this.setState((prevState)=>{
-            debugger
             const newTreeViewData = [...prevState.treeviewData];
             console.log(newTreeViewData)
             const newLocationList = [...newTreeViewData[0].CityList[0].BuildingList[0].LocationList];

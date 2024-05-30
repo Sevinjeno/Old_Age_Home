@@ -20,6 +20,37 @@
   font-size: 1.3rem;
 }
 
+
+@media screen and (max-width:1100px) {
+
+  .card{
+    height: 67%;
+  }
+
+  .card__text{
+    font-size: 0.9rem;
+  }
+
+  .card__name{
+    font-size: 1rem;
+  }
+
+  .card__image {
+    width: 5em;
+  }
+
+  .card__content {
+    top: 7.5rem;
+  }
+
+  .Testimonies{
+    height: 35rem;
+  }
+
+  
+}
+
+
 @media screen and (max-width:750px) {
   .testmonial__headline p{
     top:20px;
@@ -29,7 +60,7 @@
     height: 35rem;
   }
   .card{
-    height: 56%;
+    height: 50%;
   }
   .swiper{
     top: -3rem;
@@ -37,6 +68,9 @@
   }
   .swiper-pagination{
     top: 42rem;
+  }
+  .card__text{
+    font-size: 0.8rem;
   }
   
 }

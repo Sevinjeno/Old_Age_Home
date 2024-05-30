@@ -11,9 +11,7 @@ const Home = () => {
 
 
 
-  function Onfacility(){
-    alert("Under Development")
-  }
+ 
 
   return (
       <>
@@ -26,7 +24,8 @@ const Home = () => {
                              </div>       
                           <div className="Home__FacilityContent2">
                                   <div className="leftItem2"><img src={check}  /></div>
-                                  <div className="rightItem2">Our<span className='highlight1'> Facilities</span> empower seniors to live comfortably and enjoy a fulfilling lifestyle, surrounded by a warm and caring community residents discover not just a place to reside but a vibrant space to thrive, connect, and savor the richness of life.<p id="linkfacility">To know more about our Facilities <button type='button' id="facilityPage" onClick={Onfacility}>Click here</button></p></div>
+                                  <div className="rightItem2">Our<span className='highlight1'> Facilities</span> empower seniors to live comfortably and enjoy a fulfilling lifestyle, surrounded by a warm and caring community residents discover not just a place to reside but a vibrant space to thrive, connect, and savor the richness of life.
+                                  <Link to="facility" smooth={true} duration={1800} offset={-50}><p id="linkfacility">To know more about our Facilities <button type='button' id="facilityPage">Click here</button></p></Link></div>
                              </div>   
                           </div>
                              <About /> 

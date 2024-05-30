@@ -5,6 +5,7 @@
     justify-content: center;
     height: 30vh; /* Full viewport height */
     text-align: center;
+    margin-top: 10%;
 }
 
 .contact {
@@ -35,4 +36,29 @@ a{
 }
 a:hover{
   text-decoration: underline;
+}
+
+@media screen and (max-width:750px){
+    #directions{
+       font-size: 0.8rem;
+    }
+   
+    .contact-container {
+        margin-top: 20%;
+    }
+  
+    
+}
+
+@media screen and (max-width:450px){
+    .contact{
+        font-size: 1rem;
+    }
+
+    .contact-container {
+        margin-top: 25%;
+    }
+
+  
+    
 }

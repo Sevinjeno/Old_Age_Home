@@ -16,7 +16,7 @@ const About = () => {
         <div className="AboutPage">
         <div className='left__about'>
 
-            <h1>Our Mission:</h1>
+            <h1 id="head">Our Mission:</h1>
               {first()}
               
               {!read&&<button id="read" onClick={()=>{Setread(true)}}>Read more</button>}

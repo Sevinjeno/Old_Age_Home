@@ -20,7 +20,6 @@ const Navbar=()=>{
 
     useEffect(()=>{
          if(sidebar){
-            debugger
             document.getElementsByClassName("Home__facility__main")[0].style.zIndex=-1
          }else{
             setTimeout(()=>{
@@ -35,14 +34,14 @@ const Navbar=()=>{
     return(
         <IconContext.Provider value={{color:'#fff'}}>
         <div className='Side__Navbar'>
-        <Link to="#" className='menu-bars'>
+        {/* <Link to="#" className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar}/>
-        </Link>
+        </Link> */}
         <div className='Side_Title'>
             PushpaSadan
         </div>
         </div>
-             <nav className={sidebar?'nav-menu active':'nav-menu'}>
+             {/* <nav className={sidebar?'nav-menu active':'nav-menu'}>
               <ul className='nav-menu-items' onClick={showSidebar}>
                 <li className='navbar-toggle'>
                     <Link to='#' className='menu-bars'>
@@ -62,7 +61,7 @@ const Navbar=()=>{
                     })
                  }
               </ul>
-             </nav>
+             </nav> */}
     </IconContext.Provider>
     )
    }
