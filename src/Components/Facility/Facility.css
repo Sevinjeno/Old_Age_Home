@@ -12,6 +12,7 @@
 
 #head{
     margin-top: 15px;
+    font-size: 1.8rem;
 }
 
 
@@ -28,14 +29,19 @@
 }
 
 @media screen and (max-width:750px){
+    .MainFacility__Container p{
+       font-size: 0.8rem;
+
+    }
     .facility__data p{
+        margin-top: 10px;
        font-size: 0.8rem;
     }
     .MainFacility__Container{
         font-size: 1rem;
     }
     #head{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     
 }

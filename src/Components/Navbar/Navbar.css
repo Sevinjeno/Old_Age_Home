@@ -21,7 +21,6 @@
 
 .Side_Title{
     /* font-family: 'IBM Plex Mono', monospace; */
-
 }
 
 .Main__Navbar{
@@ -89,7 +88,7 @@
 
 .Side__Navbar{
     display: flex;
-    height: 80px;
+    height: 60px;
     justify-content: start;
     align-items: center;
     background-color: rgb(83 120 253);
@@ -179,11 +178,28 @@ span{
     .Side_Title {
         /* left: 21%; */
         /* left: %; */
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     }
 
     .menu-bars {
         margin-left: 10px;
         font-size: 1.5rem;
+    }
+    .Side__Navbar{
+        height: 53px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .Side_Title {
+    font-size: 1.2rem;
+    }
+
+    .menu-bars {
+        margin-left: 10px;
+        font-size: 1.5rem;
+    }
+    .Side__Navbar{
+        height: 45px;
     }
 }

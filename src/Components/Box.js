@@ -55,18 +55,6 @@ let treeviewData=[{
     ZHVOORZ_NAME_WithCodes: '1075 - Regio 1'
 }];
 
-
-
-
-
-
-
-
-
-
-
-
-
 let Box = () => {
   const [items] = React.useState(treeviewData);
   const [singleMode, setSingleMode] = React.useState(false);
